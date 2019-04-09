@@ -417,6 +417,9 @@ clientkeys = my_table.join(
             c:raise()
         end ,
         {description = "maximize", group = "client"})
+
+    -- Move window to next display
+    awful.key({winkey}, "o", awful.client.movetoscreen)
 )
 
 -- Bind all key numbers to tags.
