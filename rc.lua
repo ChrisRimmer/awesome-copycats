@@ -382,7 +382,6 @@ globalkeys = my_table.join(
     -- Prompt
     awful.key({ winkey }, "r", function () awful.screen.focused().mypromptbox:run() end,
               {description = "run prompt", group = "launcher"}),
-
 )
 
 clientkeys = my_table.join(
