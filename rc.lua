@@ -54,7 +54,7 @@ local altkey       = "Mod1"
 local terminal     = "xst"
 local editor       = os.getenv("EDITOR") or "vim"
 local browser      = "firefox"
-local scrlocker    = "slock"
+local scrlocker    = "glitchlock"
 
 awful.util.terminal = terminal
 awful.util.tagnames = { "Terms", "Web", "Comms", "DS", "Daemons" }
